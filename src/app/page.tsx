@@ -19,8 +19,8 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Preço"
+          description="Escolha o Plano ideal para você."
         >
           <Pricing />
         </Section>

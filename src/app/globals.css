@@ -5,10 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #FED835;
-  --secondary: #304fff;
 
-  --primary-accent: #e5c230;
+  --secondary: #21cf55;
+  --primary: #27ef64;
+
+
+  --primary-accent: #21cf55;
   --foreground-accent: #454545;
   --hero-background: #F3F3F5;
 }

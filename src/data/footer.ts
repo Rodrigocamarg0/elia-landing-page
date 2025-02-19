@@ -7,18 +7,18 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Livre-se das planilhas que nunca são atualizadas.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Funcionalidades",
             url: "#features"
         },
         {
-            text: "Pricing",
+            text: "Preço",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Clientes",
             url: "#testimonials"
         }
     ],

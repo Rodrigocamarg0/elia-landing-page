@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Elia',
+    siteUrl: 'https://elia.money/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Elia Finanças - Assistente virtual no whats que te ajuda a organizar sua vida vinançeira de forma fácil.',
+        description: 'Livre-se das planilhas que nunca são atualizadas.',
     },
-    language: 'en-us',
-    locale: 'en-US',
+    language: 'pt-br',
+    locale: 'pt-BR',
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }
