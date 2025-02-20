@@ -1,0 +1,21 @@
+# Dockerfile.nginx
+FROM alpine:3.16
+
+# Instala Nginx, Certbot e dependências
+RUN apk update && apk add --no-cache nginx certbot certbot-nginx bash
+
+# Cria diretórios necessários para o Nginx e certificados
+RUN mkdir -p /run/nginx && mkdir -p /etc/letsencrypt
+
+# Copia as configurações do Nginx
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+# Copia o script de inicialização
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+# Expondo as portas HTTP e HTTPS
+EXPOSE 80 443
+
+CMD ["/start.sh"]
